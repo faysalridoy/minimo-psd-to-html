@@ -1,0 +1,269 @@
+/*font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Inconsolata', monospace;*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+header {
+    padding-top: 15px;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/*header strat*/
+.logo {
+    width: 13%;
+    float: left;
+}
+
+.logo img {
+    width: 100%;
+    padding-top: 18px;
+
+}
+
+.menu {
+    width: 70%;
+    float: right;
+
+}
+
+.menu ul {
+    float: right;
+}
+
+.menu ul li {
+    list-style: none;
+    float: left;
+}
+
+.menu ul li a {
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 30px;
+}
+
+.menu ul li:last-child a {
+    padding-right: 0;
+
+}
+
+/*header end*/
+
+
+/*hero section start*/
+.hero {}
+
+.hero img {
+    width: 100%;
+}
+
+/*hero section end*/
+
+
+/*mid section start*/
+
+.mincontainer {
+    width: 80%;
+    margin: 0 auto;
+    padding-left: 35px;
+    padding-right: 35px;
+    overflow: hidden;
+}
+
+h5 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 12px;
+    color: #b4ad9e;
+    text-transform: uppercase;
+}
+
+.pad h5 {
+
+    margin: 70px 0;
+}
+
+.up h5 {
+    margin-bottom: 25px;
+}
+
+.down h5 {
+    margin-top: 25px;
+}
+
+h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    color: #626262;
+
+}
+
+p {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    color: #626262;
+    line-height: 2;
+}
+
+
+
+
+/*mid section end*/
+
+
+/*blog section start*/
+
+.left {
+    width: 48%;
+    float: left;
+}
+
+
+
+.div img {
+    width: 455px;
+    height: 290px;
+}
+
+.right {
+    width: 48%;
+    float: right;
+}
+
+.div p {
+    padding-bottom: 60px;
+}
+
+
+/*blog section end*/
+
+
+
+
+
+/*newsletter start*/
+.newsletter {
+    min-height: 220px;
+    background-color: #f0f0f0;
+    margin-bottom: 90px;
+}
+
+.txt {
+    text-align: center;
+}
+
+.txt h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    color: #626262;
+    padding: 30px 0;
+}
+
+
+.newsletter form {
+    width: 30%;
+    margin: auto;
+    height: 60px;
+    border-bottom: 2px solid black;
+    ;
+}
+
+.newsletter form input {
+    width: 78%;
+    display: inline-block;
+    border: none;
+    background: none;
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    outline: none;
+}
+
+.sub-btn {
+    display: inline-block;
+    text-align: right;
+    width: 20%;
+
+}
+
+
+
+
+/*newsletter start*/
+
+
+/*button*/
+
+.btn {
+    text-align: center;
+    margin: 100px 0;
+}
+
+.button {
+
+    font-family: 'Playfair Display', serif;
+    background-color: white;
+    border: 2px solid #e7e7e7;
+    color: #626262;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: auto;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.button:hover {
+    background-color: #e7e7e7;
+}
+
+/*button*/
+
+
+/*footer start*/
+
+footer {
+    height: 45px;
+    background-color: #f0f0f0;
+}
+
+.text {
+    float: left;
+}
+
+.text a {
+    font-family: 'Playfair Display', serif;
+    font-size: 12px;
+    color: #626262;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 15px;
+    margin: 15px 0;
+
+}
+
+.link {
+    float: right;
+}
+
+.link a {
+    font-family: 'Playfair Display', serif;
+    font-size: 12px;
+    color: #626262;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 15px;
+    margin: 15px 0;
+}
+
+/*footer end*/
